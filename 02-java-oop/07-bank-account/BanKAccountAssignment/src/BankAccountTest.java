@@ -10,7 +10,7 @@ public class BankAccountTest {
         Simms.Deposit(0, 100);
         Simms.Deposit(1, 50);
 
-        Simms.Withdraw(0, 200);
+        Simms.Withdraw(0, 50);
         Simms.Withdraw(1, 25);
 
         Simms.Summary();

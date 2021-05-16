@@ -61,7 +61,7 @@ public class BankAccount {
         if (account == 0 || account == 1) {
             if (account == 0) {
                 if (CheckingBalance - sum <= 0) {
-                    System.out.println("not enough cash in acount");
+                    System.out.println("not enough cash in account");
                 } else {
                     CheckingBalance = CheckingBalance - sum;
                     System.out.println("New Checking Balance: " + CheckingBalance);
@@ -69,7 +69,7 @@ public class BankAccount {
                 }
             } else {
                 if (SavingsBalance - sum <= 0) {
-                    System.out.println("not enough cash in acount");
+                    System.out.println("not enough cash in account");
                 } else {
                     SavingsBalance = SavingsBalance - sum;
                     System.out.println("New Savings Balance: " + SavingsBalance);
